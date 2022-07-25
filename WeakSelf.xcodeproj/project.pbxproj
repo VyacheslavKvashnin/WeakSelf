@@ -13,6 +13,8 @@
 		BDAA0A99288E6BD500091925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAA0A97288E6BD500091925 /* Main.storyboard */; };
 		BDAA0A9B288E6BD600091925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAA0A9A288E6BD600091925 /* Assets.xcassets */; };
 		BDAA0A9E288E6BD600091925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAA0A9C288E6BD600091925 /* LaunchScreen.storyboard */; };
+		BDAA0AA8288E6C5600091925 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA0AA7288E6C5600091925 /* Post.swift */; };
+		BDAA0AAA288E6CAA00091925 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA0AA9288E6CAA00091925 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BDAA0A9A288E6BD600091925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDAA0A9D288E6BD600091925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDAA0A9F288E6BD600091925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAA0AA7288E6C5600091925 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BDAA0AA9288E6CAA00091925 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		BDAA0AA5288E6BEE00091925 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BDAA0AA7288E6C5600091925 /* Post.swift */,
+				BDAA0AA9288E6CAA00091925 /* NetworkManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,7 +162,9 @@
 			files = (
 				BDAA0A96288E6BD500091925 /* ViewController.swift in Sources */,
 				BDAA0A92288E6BD500091925 /* AppDelegate.swift in Sources */,
+				BDAA0AAA288E6CAA00091925 /* NetworkManager.swift in Sources */,
 				BDAA0A94288E6BD500091925 /* SceneDelegate.swift in Sources */,
+				BDAA0AA8288E6C5600091925 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
